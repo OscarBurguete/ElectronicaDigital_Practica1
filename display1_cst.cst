@@ -1,0 +1,48 @@
+// ==========================================
+// SALIDAS: Pantalla 7 Segmentos (a - g)
+// ==========================================
+IO_LOC "a" 16;
+IO_PORT "a" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+
+IO_LOC "b" 15;
+IO_PORT "b" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+
+IO_LOC "c" 77;
+IO_PORT "c" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+
+IO_LOC "d" 85;
+IO_PORT "d" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+
+IO_LOC "e" 75;
+IO_PORT "e" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+
+IO_LOC "f" 74;
+IO_PORT "f" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+
+IO_LOC "g" 73;
+IO_PORT "g" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8 BANK_VCCIO=3.3;
+
+// ==========================================
+// ENTRADAS: DIP Switch de 6 bits
+// Variable A (3 bits) y Variable B (3 bits)
+// ==========================================
+
+// --- Entrada A [2:0] ---
+IO_LOC "A[0]" 76;
+IO_PORT "A[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+
+IO_LOC "A[1]" 53;
+IO_PORT "A[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+
+IO_LOC "A[2]" 71;
+IO_PORT "A[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+
+// --- Entrada B [2:0] ---
+IO_LOC "B[0]" 72;
+IO_PORT "B[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+
+IO_LOC "B[1]" 86;
+IO_PORT "B[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+
+IO_LOC "B[2]" 80;
+IO_PORT "B[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
